@@ -22,6 +22,7 @@ button {
   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
   color: var(--grey-dark);
   font-size: 1rem;
+  
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -51,6 +52,7 @@ p {
   height: 5rem;
   margin-bottom: 1rem;
   padding-top: 1rem;
+  color: var(--white);
 }
 
 .header__logo {
@@ -93,12 +95,21 @@ p {
 }
 
 
-/* Buttons */
+.button {
+  padding: 0.5rem 0.5rem;
+  color:var(--orange-dark);
+  background-color: var(--white);
+  border:none;
+  border-radius: 0.35rem;
+}
 
-  /* INSERT BUTTON STYLES HERE */
-
-
-/* Content */
+.button1 {
+  padding: 0.5rem 0.5rem;
+  color:var(--white);
+  background-color: var(--orange-dark);
+  border:none;
+  border-radius: 0.35rem;
+}
 
 .content {
   display: flex;
@@ -121,7 +132,8 @@ p {
 
 .hero {
   background-image: url("/images/header-bike.jpg");
-  background-color: var(--grey-light);
+  background-color: var(--white);
+  color:var(--white);
 }
 
 .hero h1 {
