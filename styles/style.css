@@ -62,13 +62,16 @@ p {
 
 /* Navigation */
 
+
 .navigation__list {
   display: flex;
   list-style: none;
+  
 }
 
 .navigation__item {
   padding: 0.5rem 0;
+  padding: 0 1rem 0 1rem;
 }
 
 .navigation__link {
@@ -131,6 +134,11 @@ p {
 /* hero */
 
 .hero {
+  padding-top: 6rem;
+  padding-bottom: 3.5rem;
+  padding-left:1.7rem ;
+  padding-right:3rem; 
+  margin-bottom: 3rem;
   background-image: url("/images/header-bike.jpg");
   background-color: var(--white);
   color:var(--white);
@@ -169,6 +177,7 @@ p {
   max-width: 100px;
   background: var(--orange-dark);
 }
+/*Section*/
 
 
 /* Article */
